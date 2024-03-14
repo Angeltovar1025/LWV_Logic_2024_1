@@ -27,7 +27,7 @@
         // 2. True, sino va con la palabra reservada "break", sino se genera un bucle infinito
 
         //Creación del Cicl
-        while (true) //Flag
+        while (true) //Flag//
         {
             Console.Write("Ingrese un número: "); num = Convert.ToInt32(Console.ReadLine());
             if (num < 0)
