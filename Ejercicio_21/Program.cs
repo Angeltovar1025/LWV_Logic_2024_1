@@ -23,6 +23,7 @@
             Console.Write("Ingrese el altura del paciente en cm: "); altura = double.Parse(Console.ReadLine());
             Console.WriteLine();
 
+            //Realizando cálculos
             double IMC = (peso / Math.Pow(2,altura));
             Console.WriteLine();
             if (IMC < 18.5)
