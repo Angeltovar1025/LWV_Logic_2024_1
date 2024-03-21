@@ -33,8 +33,6 @@
                 Console.WriteLine($"El paciente {n} tiene sobrepeso");
             else   
                 Console.WriteLine($"El paciente {n} tiene obesidad"); Console.WriteLine();
-    
-        
                 Console.WriteLine("¿Desea calcular el IMC de otro paciente? (s/n)");
                 string respuesta = Console.ReadLine();
                 if (respuesta.ToLower() != "s")
